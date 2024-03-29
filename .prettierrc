@@ -1,0 +1,28 @@
+{
+	"printWidth": 80,
+	"tabWidth": 2,
+	"useTabs": true,
+	"trailingComma": "all",
+	"singleQuote": true,
+	"semi": false,
+	"plugins": ["@trivago/prettier-plugin-sort-imports"],
+	"importOrder": [
+		"^@/components/ui(.*)$",
+		"^@radix-ui/react-icons",
+		"^@/components/(.*)$",
+		"^@/pages/(.*)$",
+		"^@/layouts/(.*)$",
+		"^@/config/(.*)$",
+		"^@/context/(.*)$",
+		"^@/hooks/(.*)$",
+		"^@/lib/(.*)$",
+		"^@/data/(.*)$",
+		"^@/reducers/(.*)$",
+		"^@/(.*)/$",
+		"^[]",
+		"^[./]"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"importOrderCaseInsensitive": true
+}

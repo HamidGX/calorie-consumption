@@ -122,7 +122,7 @@ export default function List({ activities, dispatch }: ActivityListProps) {
 															})
 														}
 													>
-														Editar
+														Edit
 													</DropdownMenuItem>
 													<DropdownMenuItem
 														onClick={() =>
@@ -132,7 +132,7 @@ export default function List({ activities, dispatch }: ActivityListProps) {
 															})
 														}
 													>
-														Eliminar
+														Delate
 													</DropdownMenuItem>
 												</DropdownMenuContent>
 											</DropdownMenu>
